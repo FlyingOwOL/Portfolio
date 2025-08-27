@@ -1,0 +1,17 @@
+.selfImage
+{
+    border-radius: 1px 60%;
+    position: relative;
+    padding: 15px;
+    left: 10px;
+    top: 10px;
+}
+
+.heroSection
+{
+    position: absolute;
+    width: 440px;
+    height: 200px;
+    left: 500px;
+    top: 400px;
+}

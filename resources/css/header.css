@@ -1,11 +1,12 @@
-.header
+header
 {
     background-color: #4d4979;
     padding: 10px 0;
     text-align: center;
-    text-decoration: none;
     position: sticky;
     top: 0;
+
+    z-index: 1;
 }
 
 .headerOptions
