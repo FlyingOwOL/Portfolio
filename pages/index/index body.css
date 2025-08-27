@@ -15,3 +15,10 @@
     left: 500px;
     top: 400px;
 }
+
+table.iconTable
+{
+    position: absolute;
+    left: 500px;
+    top: 70px;
+}
