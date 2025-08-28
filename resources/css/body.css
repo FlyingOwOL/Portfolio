@@ -18,6 +18,15 @@ h1
     background-color: rgb(85, 74, 135);
 }
 
+h2
+{   
+    text-align: center;
+    width: 240px;
+
+    border-radius: 100px;
+    background-color: rgb(56, 47, 101);
+}
+
 img
 {
     border-radius: 50%;
@@ -34,12 +43,21 @@ img.icon
 p
 {
     font-weight: normal;
-    font-size: 15px;
+    font-size: 17px;
     font-family: 'Times New Roman';
     letter-spacing: normal;
     text-align: center;
     line-height: 1.6;
     margin: 20px;
+
+    background-color: rgba(11, 10, 16, 0.129);
+    border-radius: 25px;
+}
+
+ul
+{
+    background-color: rgba(11, 10, 16, 0.129);
+    border-radius: 25px;
 }
 
 section

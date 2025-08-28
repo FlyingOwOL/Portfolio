@@ -1,0 +1,40 @@
+section.about
+{
+    position: relative;
+    left: 100px;
+    width: 1000px;
+}
+
+section.education
+{
+    width: 500px;
+
+    position: relative;
+    top: 10px;
+    left: 300px;
+}
+
+section.socials
+{
+    text-align: center;
+
+    width: 200px;
+    
+    position: absolute;
+    right: 135px;
+    top: 65px; 
+} 
+
+section.hobbies
+{
+    width: 240px;
+
+    position: absolute;
+    right: 395px;
+    top: 265px;
+}
+
+p.about
+{
+    text-align: left;
+}
