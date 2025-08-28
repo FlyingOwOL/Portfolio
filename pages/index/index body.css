@@ -1,19 +1,19 @@
-.selfImage
+img.selfImage
 {
     border-radius: 1px 60%;
     position: relative;
     padding: 15px;
     left: 10px;
-    top: 10px;
+    top: 1px;
 }
 
-.heroSection
+section.heroSection
 {
     position: absolute;
     width: 440px;
     height: 200px;
     left: 500px;
-    top: 400px;
+    top: 300px;
 }
 
 table.iconTable
@@ -21,4 +21,22 @@ table.iconTable
     position: absolute;
     left: 500px;
     top: 70px;
+}
+
+section.currentProgress
+{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    right: 5px;
+    top: 70px;
+}
+
+section.futureProgress
+{
+    width: 400px;
+    height: 220px;
+    position: absolute;
+    right: 5px;
+    top: 400px;
 }
