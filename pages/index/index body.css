@@ -1,10 +1,16 @@
-img.selfImage
-{
-    border-radius: 1px 60%;
-    position: relative;
-    padding: 15px;
-    left: 10px;
-    top: 1px;
+.selfImage {
+  width: 400px;
+  height: 550px;
+  background: url("../../resources/images/self\ photo.jpeg") no-repeat center/cover;
+  padding: 15px;
+  border-radius: 1px 60%;
+  position: relative;
+  left: 10px;
+  top: 1px;
+}
+
+.selfImage:hover {
+  background: url("../../resources/images/alt\ self.gif") no-repeat center/cover;
 }
 
 section.heroSection
