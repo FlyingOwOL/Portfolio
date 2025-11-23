@@ -13,6 +13,8 @@ function openFappybird(){
      * 
      * use this path when pushing to github
      * https://flyingowol.github.io/Portfolio/pages/index/popup/fappybird.html
+     * https://flyingowol.github.io/Portfolio
+     * 
      */
 
     window.open('https://flyingowol.github.io/Portfolio/pages/index/popup/fappybird.html', 'Fappybird', `width=${width},height=${height},left=${left + 20},top=${top + 65}`);
