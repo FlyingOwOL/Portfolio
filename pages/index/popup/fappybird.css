@@ -1,9 +1,13 @@
 body {
-    background-color: skyblue;
-    margin: 0;
-    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 #board {
-    background-color: skyblue;
+    background-image: url("./resources/background.png");
+    background-size: cover; /* SCALE THE FUCKING IMAGE to cover canvas */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 620px;  /* Match your JS dimensions */
+    height: 500px;
 }

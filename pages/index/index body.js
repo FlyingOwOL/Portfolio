@@ -1,10 +1,9 @@
 const playButton = document.getElementById("playButton");
 
 function openFappybird(){
-    const width = 620;
-    const height = 500;
-    const left = (screen.width / 2) - (width / 2);
-    const top = (screen.height / 2) - (height / 2);
+    const width = screen.width;
+    const height = screen.height;
+
 
 
     /**
@@ -13,11 +12,10 @@ function openFappybird(){
      * 
      * use this path when pushing to github
      * https://flyingowol.github.io/Portfolio/pages/index/popup/fappybird.html
-     * https://flyingowol.github.io/Portfolio
      * 
      */
 
-    window.open('https://flyingowol.github.io/Portfolio/pages/index/popup/fappybird.html', 'Fappybird', `width=${width},height=${height},left=${left + 20},top=${top + 65}`);
+    window.open('https://flyingowol.github.io/Portfolio/pages/index/popup/fappybird.html', 'Fappybird', `width=${width},height=${height}`);
 }
 
 playButton.addEventListener("click", () => {
