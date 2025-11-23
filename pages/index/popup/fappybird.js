@@ -40,8 +40,15 @@ let spawnInterval = 1500;
 document.addEventListener('DOMContentLoaded', function() {
     const audio = new Audio('resources/fettywap again.mp3');
     audio.loop = true;
+    
+    // Try to play, but handle potential blocking
     audio.play().catch(error => {
-        console.log('Audio play failed:', error);
+        console.log('Autoplay blocked, waiting for user interaction');
+        
+        // Start audio on first user click
+        document.addEventListener('click', function() {
+            audio.play();
+        }, { once: true });
     });
 });
 
