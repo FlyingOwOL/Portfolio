@@ -38,6 +38,14 @@ let lastSpawnTime = 0;
 let spawnInterval = 1500;
 
 window.onload = function() {
+    const audio = new Audio('resources/fettywap again.mp3');
+    audio.loop = true;
+    audio.play().catch(error => {
+        console.log('Audio play failed:', error);
+    });
+};
+
+window.onload = function() {
     board = document.getElementById("board");    
     board.width = boardWidth;
     board.height = boardHeight;
