@@ -11,11 +11,11 @@ function openFappybird(){
      * http://localhost:8080/pages/index/popup/fappybird.html
      * 
      * use this path when pushing to github
-     * https://flyingowol.github.io/Portfolio/pages/index/popup/fappybird.html
+     * https://flyingowol.github.io/Personal-website/pages/index/popup/fappybird.html
      * 
      */
 
-    window.open('https://flyingowol.github.io/Portfolio/pages/index/popup/fappybird.html', 'Fappybird', `width=${width},height=${height}`);
+    window.open('https://flyingowol.github.io/Personal-website/pages/index/popup/fappybird.html', 'Fappybird', `width=${width},height=${height}`);
 }
 
 playButton.addEventListener("click", () => {
